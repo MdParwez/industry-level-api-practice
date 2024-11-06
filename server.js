@@ -18,7 +18,6 @@ app.use(cors());
 app.use(helmet());
 app.use(morgan('tiny'));
 
-// Routes
 app.use('/api/users', userRoutes);
 
 const PORT = process.env.PORT || 5000;
